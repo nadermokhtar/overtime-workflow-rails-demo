@@ -39,9 +39,9 @@ Things you may want to cover:
 ## libraries to use:
 * Devise
 * Administrate
-* Bootstrap
-* Twilio
-* dotENV
-* Rspec
-* capybara
+* Bootstrap for UI
+* Twilio for SMS
+* dotENV for keeping keys
+* Rspec for testing
+* capybara for UI testing
 
