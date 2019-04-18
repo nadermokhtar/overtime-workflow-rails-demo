@@ -12,6 +12,7 @@ describe 'navigate' do
       expect(page).to have_content(/Posts/)
     end
   end
+<<<<<<< HEAD
 
   describe 'creation' do
     it 'has a new form that can be reached' do
@@ -28,4 +29,6 @@ describe 'navigate' do
       expect(page).to have_content('Some rationale')
     end
   end
+=======
+>>>>>>> 094d57d608bfc6d2a7b21fa789d47aecf4e25f61
 end
