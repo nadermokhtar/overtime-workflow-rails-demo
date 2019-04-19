@@ -2,17 +2,16 @@ require 'rails_helper'
 
 describe 'navigate' do
   describe 'index' do
-    it 'can be reached sucecssfully'do
+    it 'can be reached sucecssfully' do
       visit posts_path
       expect(page.status_code).to eq(200)
     end
 
-    it 'has a title of Posts'do
+    it 'has a title of Posts' do
       visit posts_path
       expect(page).to have_content(/Posts/)
     end
   end
-<<<<<<< HEAD
 
   describe 'creation' do
     it 'has a new form that can be reached' do
@@ -29,6 +28,4 @@ describe 'navigate' do
       expect(page).to have_content('Some rationale')
     end
   end
-=======
->>>>>>> 094d57d608bfc6d2a7b21fa789d47aecf4e25f61
 end
