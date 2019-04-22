@@ -1,8 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  describe "New Post creation" do
-
+  describe 'New Post creation' do
     before do
       user = User.create(email: 'test@test.com', password:'monkey', password_confirmation:'monkey', first_name:'Jon', last_name: 'Snow')
       @post = Post.create(date: Date.today, rationale:'anything', user_id: user.id)
@@ -17,6 +16,5 @@ RSpec.describe Post, type: :model do
       @post.rationale = nil
       expect(@post).to_not be_valid
     end
-
   end
 end
